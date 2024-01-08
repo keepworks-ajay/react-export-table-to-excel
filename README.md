@@ -1,6 +1,9 @@
 # ReactExportTableToExcel
 
-Provides a client side generation of Excel (.xls) file from HTML table element.
+This is a fork of a plugin which is no longer receiving updates.
+
+
+Provides a client side generation of Excel (.xlsx) file from HTML table element.
 
 [![NPM](https://nodei.co/npm/react-export-table-to-excel.png)](https://npmjs.org/package/react-export-table-to-excel)
 
@@ -25,7 +28,7 @@ yarn add react-export-table-to-excel
 
 ## Features
 
-- Download HTML table as Excel file in .xls format
+- Download HTML table as Excel file in .xlsx format
 - No server side code
 - Set desired .xls filename and sheet
 - Hook to export to excel

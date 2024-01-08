@@ -59,7 +59,7 @@ function excel({ currentTableRef, filename, sheet }: UseExcel): ExcelReturn {
     if (!valEnv()) return false;
 
     const table = getTable(currentTableRef);
-    const fileName = `${filename}.xls`;
+    const fileName = `${filename}.xlsx`;
 
     const context: Context = {
       worksheet: sheet || "Worksheet",

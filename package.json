@@ -1,29 +1,33 @@
 {
-  "name": "react-export-table-to-excel",
-  "version": "1.0.6",
+  "name": "react-export-table-to-excel-xlsx-format",
+  "version": "0.1.0",
   "description": "It allows you to export an HTML table just by sending the table reference and the name with which you want the file to be saved",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/EdisonJpp/react-export-table-to-excel"
+    "url": "https://github.com/keepworks-ajay/react-export-table-to-excel"
   },
   "keywords": [
     "react",
     "excel",
     "table",
     "html",
-    "xls"
+    "xlsx"
   ],
-  "homepage": "https://github.com/EdisonJpp/react-export-table-to-excel",
+  "homepage": "https://github.com/keepworks-ajay/react-export-table-to-excel",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start:dev": "react-scripts start",
     "publish:npm": "rm -rf lib && npm run build && npm publish --access public"
   },
-  "author": "Edison J. Padilla && Enmanuel Santana",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Ajay Kumar",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-typescript": "^7.18.6",
