@@ -30,7 +30,7 @@ yarn add react-export-table-to-excel
 
 - Download HTML table as Excel file in .xlsx format
 - No server side code
-- Set desired .xls filename and sheet
+- Set desired .xlsx filename and sheet
 - Hook to export to excel
 - Component to export to excel
 - Method to export to excel
